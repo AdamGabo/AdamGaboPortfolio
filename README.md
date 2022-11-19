@@ -24,7 +24,7 @@ Adam Gaboury's Portfolio.
 * My Portfolio displayed using React.js! 
 
 ## Design
-Designed using React.Js. Please consult React.Js documentation to get npm packages for install. 
+Designed using React.Js. Please consult React.Js documentation to get npm packages for install. Please use npm start to see the wep app in action! 
 
 ## Details
 * GitHub Link: https://github.com/AdamGabo/AdamGaboPortfolio
