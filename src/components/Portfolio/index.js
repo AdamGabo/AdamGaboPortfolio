@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Projects/index";
+import Project from "../Projects";
 
 //content array for porjects, dont have time to fill out just yet would pass in a JSON like array to fill out my portfolio data 
 const myProjects = []; 
