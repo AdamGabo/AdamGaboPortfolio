@@ -27,7 +27,7 @@ function Project () {
   return (
     <div>
     {projects.map((project) => (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '25%' }}>
       <Card.Img variant="top" src={process.env.PUBLIC_URL + project.image} alt="image"/>
       <Card.Body>
         <Card.Title><p>{project.title}</p></Card.Title>
