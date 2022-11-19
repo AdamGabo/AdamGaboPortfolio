@@ -28,7 +28,7 @@ function HeaderFunc() { //Hook with switch statement to get items to load correc
     return (
       <div>
         <nav className="navbar">
-          <div className="navbar-brand">
+          <div className="navbar-div">
             <a className="navbar-item" rel="noreferrer" target="_blank" href="https://github.com/AdamGabo?tab=repositories">
               <span className="content is-large">Adam Gaboury</span>
             </a>
