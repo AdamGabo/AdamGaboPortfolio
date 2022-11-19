@@ -9,7 +9,6 @@ function Footer() {
             <a href="https://github.com/AdamGabo" target="_blank" rel="noreferrer">
               Adam Gaboury
             </a>
-            <hr />
             <a href="https://www.linkedin.com/in/adam-gaboury-2446b0bb/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>

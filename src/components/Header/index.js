@@ -7,8 +7,8 @@ import Resume from "../Resume";
 import About from "../About";
 
 //pass up a level to App.js? 
-function HeaderFunc() { //Hook with switch statement to get items to load correctly 
-    const [activePage, pageHandler] = useState("AboutFunc");
+function Header() { //Hook with switch statement to get items to load correctly 
+    const [activePage, pageHandler] = useState("About");
   
     const pageRender = () => {
       switch (activePage) {
@@ -44,4 +44,4 @@ function HeaderFunc() { //Hook with switch statement to get items to load correc
     );
   }
   
-  export default HeaderFunc;
+  export default Header;
