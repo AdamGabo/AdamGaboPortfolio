@@ -1,6 +1,6 @@
 import React from "react"; 
 
-function FooterFunc() {
+function Footer() {
     return (
       <footer className="footer">
         <div className="content has-text-centered">
@@ -22,4 +22,4 @@ function FooterFunc() {
     );
   }
   
-  export default FooterFunc;
+  export default Footer;

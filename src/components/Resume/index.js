@@ -1,6 +1,6 @@
 import React from "react";
 //some stackoverflow code was used, in particular how to dsiplay an icon link in React N.T.S. resume 
-function ResumeFunc() {
+function Resume() {
   return (
     <div className="columns">
       <div className="column">
@@ -27,4 +27,4 @@ function ResumeFunc() {
     </div>
   );
 }
-export default ResumeFunc;
+export default Resume;

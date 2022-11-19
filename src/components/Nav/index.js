@@ -1,7 +1,7 @@
 import React from "react";
 
 //map the tabs on the nav bar using tabs.map, utilizes some Stack Overflow code for the li classname, <a> href and ? line 11 
-function NavFunc(props) {
+function Nav(props) {
   const tabStrings = ["About", "Portfolio", "Resume", "Contact"];
   return (
     <div className="tabs is-centered">
@@ -16,4 +16,4 @@ function NavFunc(props) {
   );
 }
 
-export default NavFunc;
+export default Nav;

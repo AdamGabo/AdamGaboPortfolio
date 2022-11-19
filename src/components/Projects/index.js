@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const Modal = ({ onClose, currentPhoto }) => {
+const Project = ({ onClose, currentPhoto }) => {
   const { name, description, category, index } = currentPhoto;
 
   return (
@@ -21,4 +21,4 @@ const Modal = ({ onClose, currentPhoto }) => {
   );
 };
 
-export default Modal;
+export default Project;

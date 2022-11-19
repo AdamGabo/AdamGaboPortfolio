@@ -12,13 +12,13 @@ function HeaderFunc() { //Hook with switch statement to get items to load correc
   
     const pageRender = () => {
       switch (activePage) {
-        case "AboutFunc":
+        case "About":
           return <About />;
-        case "PortFunc":
+        case "Portfolio":
           return <Portfolio />;
-        case "ContactFunc":
+        case "Contact":
           return <Contact />;
-        case "ResumeFunc":
+        case "Resume":
           return <Resume />;
         default:
           return <About />;

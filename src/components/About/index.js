@@ -1,7 +1,7 @@
 //import react 
 import React from "react"; 
 //N.T.S. will need to save my photo to an image folder 
-function AboutFunc() {
+function About() {
     return (
         //HTML  
       <div>
@@ -17,4 +17,4 @@ function AboutFunc() {
     );
   }
   
-  export default AboutFunc;
+  export default About;

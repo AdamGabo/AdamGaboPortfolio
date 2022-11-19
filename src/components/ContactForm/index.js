@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers';
 //Some Module code was borrowed for this part of the application 
-function ContactFunc() {
+function ContactForm() {
 	const [formElements, setFormState] = useState({name: "", email: "", message: "",}); //setup email hook using formState
 	const [error, setErrorMessage] = useState(""); //setup error prompt hook when an error occurs i.e no info passed through 
 	const { name, email, message } = formElements;
@@ -85,4 +85,4 @@ function ContactFunc() {
 		</section>
 	);
 }
-export default ContactFunc;
+export default ContactForm;
