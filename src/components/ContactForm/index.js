@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from '../../utils/helpers';
 //Some Module code was borrowed for this part of the application 
 function ContactFunc() {
 	const [formElements, setFormState] = useState({name: "", email: "", message: "",}); //setup email hook using formState

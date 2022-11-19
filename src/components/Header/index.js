@@ -1,10 +1,10 @@
 //import all this stuff
 import React, { useState } from 'react';
-import Navigation from "./Nav/index";
-import Contact from "./Contact/index";
-import Portfolio from "./Portfolio/index";
-import Resume from "./Resume/index";
-import About from "./About/index";
+import Navigation from "../Nav";
+import Contact from "../ContactForm";
+import Portfolio from "../Portfolio";
+import Resume from "../Resume";
+import About from "../About";
 
 //pass up a level to App.js? 
 function HeaderFunc() { //Hook with switch statement to get items to load correctly 
