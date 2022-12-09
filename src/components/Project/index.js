@@ -21,6 +21,14 @@ function Project () {
       description: "Listen to podcasts while you run in a park",
       repo: "https://github.com/AdamGabo/PlayMeSpotify",
       website: "https://adamgabo.github.io/PlayMeSpotify/"
+    },
+    {
+      id: 2,
+      title: "Starship",
+      image: "/assets/Starship.PNG",
+      description: "Market Dashboard",
+      repo: "https://github.com/FOR-TIMI/Starship",
+      website: "https://still-cliffs-68409.herokuapp.com/dashboard/app"
     }
     ]; 
 
